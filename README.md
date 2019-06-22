@@ -1,0 +1,2 @@
+# the-pig-dice-game
+it is a simple game developed using html,css and javascript.it is dual player game in which each player has to roll a dice and if on rolling "one" gets occurred or "two consecutive time six" get occur then all the point the players get collected til that point will become zero and also lost his/her chance.but if before getting "one" or "two consecutive six " if player hold the points then player losses his/her chance but points will remain same i.e points will not become zero.so the player who got 20 point first will be the winner of game.
