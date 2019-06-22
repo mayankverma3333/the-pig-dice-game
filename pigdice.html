@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>THE PIG DICE GAME</h1>
+        
+        <div id="newgame">
+           <button type="button" id="newbtn"><img id="plus" src="plus.jpg">
+            NEW GAME
+            </button>
+        </div>
+        <div id="container">
+            <div id="player1" class="player">
+                <p class="name" id="tag1">PLAYER 1</p>
+                <p id="global1" class="global">0</p>
+                <div id="current1" class="current">
+                    <span id="current_score1">0</span><br>
+                    <span>current</span>
+                </div>
+
+            </div>
+            <div id="player2" class="player">
+                <p class="name" id="tag2">PLAYER 2</p>
+                <p id="global2" class="global">0</p>
+                <div id="current2" class="current">
+                        <span id="current_score2">0</span><br>
+                        <span>current</span>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="image">
+            <img src="1.png" id="dice_number">
+        </div>
+        <div id="btn">
+            <button type="button" class="active" id="roll"><img  src="reload.png" class="icon">ROLL</button><br>
+            <button type="button" class="active" id="hold"><img src="hold.png" class="icon">HOLD</button>
+        </div>
+        
+
+        
+        
+        
+        <script src="script.js"></script>
+    </body>
+</html>
